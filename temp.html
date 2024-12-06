@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .parent{
+        display:flex;
+        justify-content: center;
+       } 
+       .b{
+        background-color: blue;
+        height:50px;
+        width:500px;
+        border-radius: 25px;
+       }
+       input[type=text]{
+        width:450px;
+        height:50px;
+       }
+       .c{
+        display: flex;
+        justify-content: space-between;
+        background-color: blue;
+        align-items:center;
+        height:15px;
+       width:20px;
+        padding:10px;
+       }
+       .b1{
+        color:white;
+       }
+       .head{
+        display: flex;
+       }
+       .child{
+         width:550px;
+         height:600px;
+       }
+       button{
+        width: 450px;
+        height:50px;
+        border-radius: 25px;
+       }
+        
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1 style="color: blue" >Linked</h1>   
+        <h1 class="c b1">in</h1>
+    </div>
+    <div class="parent">
+        <div class="child">
+    <h2>Sign in</h2>
+    <p>stay updated on your professional world</p>
+<input type ="text" placeholder="Email or Phone" required>
+<br><br>
+<input type ="text" placeholder="Password" required>
+<br><br>
+ <a href="#">Forget password?</a>
+ <br>
+ <p><input type="checkbox">Keep me logged in</p>
+ <button class="b b1" > Sign in</button>
+  <p style="padding-left:250px">or</p> 
+  <p>By clicking Continue,you agree to LinkedIn's <a href="#">User Agreement</a>,<a href="#">Privacy Policy</a>,and<a href="#">Cookie policy</a>.</p>
+  <br>
+  <button>
+  <img src="1.png" alt="Continue with Google"/>
+</button>
+  <br><br>
+  <button>Sign in with Microsoft</button>
+  <br><br>
+  <button>Sign in with Apple</button>
+</div>
+ </div>
+
+
+</body>
+</html>
